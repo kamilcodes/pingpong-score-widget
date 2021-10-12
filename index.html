@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./app.js" defer></script>
+    <title>Ping Pong Score Keeper</title>
+  </head>
+  <body>
+    <main>
+      <div class="score-widget max-width-wrapper">
+        <header class="score-widget__header">
+          <img
+            src="./assets/pingpong-balls.jpg"
+            alt="a lot of colorful ping pong balls jumping on a white surface in front of a black background"
+          />
+          <h1>Ping Pong Score Keeper</h1>
+        </header>
+        <section class="score-widget__body">
+          <h2 class="score-display">
+            Score: <span class="score--player-1">0</span> to
+            <span class="score--player-2">0</span>
+          </h2>
+          <p>Use the buttons below to keep score.</p>
+          <label for="max-score-select">Playing to</label>
+          <select name="max-score" id="max-score-select">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+          </select>
+          <div class="button-menu">
+            <button class="btn--player-1">+1 Player one</button>
+            <button class="btn--player-2">+1 Player Two</button>
+            <button class="btn--reset">Reset</button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
