@@ -26,24 +26,24 @@
         </header>
         <section class="score-widget__body">
           <h2 class="score-display">
-            Score: <span class="score--player-1">0</span> to
-            <span class="score--player-2">0</span>
+            Score: <span class="score--player-1" id="scorePlayer1">0</span> to
+            <span class="score--player-2" id="scorePlayer2">0</span>
           </h2>
           <p>Use the buttons below to keep score.</p>
-          <label for="max-score-select">Playing to</label>
-          <select name="max-score" id="max-score-select">
+          <label for="maxScoreSelect">Playing to</label>
+          <select name="max-score" id="maxScoreSelect">
             <option value="5">5</option>
             <option value="6">6</option>
             <option value="7">7</option>
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-            <option value="11">11</option>
+            <option value="11" selected>11</option>
           </select>
           <div class="button-menu">
-            <button class="btn--player-1">+1 Player one</button>
-            <button class="btn--player-2">+1 Player Two</button>
-            <button class="btn--reset">Reset</button>
+            <button class="btn--player-1" id="btnP1">+1 Player one</button>
+            <button class="btn--player-2" id="btnP2">+1 Player Two</button>
+            <button class="btn--reset" id="btnReset">Reset</button>
           </div>
         </section>
       </div>
