@@ -9,24 +9,24 @@
   - technology:
     - HTML, CSS, JavaScript and Git
   - milestones:
-    - outline the project and create project plan (15min)
-    - identify and breakdown the core problems of the project into smaller chunks (30min)
-      - identify html structure
-      - basic functionality
-    - Set up project folder (assets, fonts etc.) and git repo (15min)
-    - write the html markup (30min)
-      - semantic html
-      - accessibility
-    - JavaScript functionality and additional css styles for DOM manipulation (1.5h - 2h)
-    - basic css styles (15)
+    1. outline the project and create project plan (15min)
+    2. identify and breakdown the core problems of the project into smaller chunks (30min)
+    - identify html structure
+    - basic functionality
+    3. Set up project folder (assets, fonts etc.) and git repo (15min)
+    4. write the html markup (30min)
+    - semantic html
+    - accessibility
+    5. JavaScript functionality and additional css styles for DOM manipulation (1.5h - 2h)
+    6. basic css styles (15)
   - deliverables: a usable table tennis score keeper widget
   - estimated time: 4-5h
   - actual time spend on milestones:
-    - 30min
-    - 30min
-    - 30min
-    - 90min
-    - 40min
+    1. 30min
+    2. 30min
+    3. 30min
+    4. 90min
+    5. 40min
 - Problems to solve:
   - design and html elements:
     - one container/card that holds the entire app
