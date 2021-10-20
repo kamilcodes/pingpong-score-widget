@@ -60,5 +60,7 @@ btnReset.addEventListener("click", () => {
     btnP2.disabled = false;
     scorePlayer1.style.color = "black";
     scorePlayer2.style.color = "black";
+    maxScore = 11;
+    maxScoreSelect.value = 11;
   }
 });
